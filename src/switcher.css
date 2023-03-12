@@ -1,0 +1,82 @@
+
+.App {
+    height: 100vh;
+}
+
+.theme-options {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 0;
+
+}
+
+.theme-options div {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.theme-options div:active {
+    opacity: 1;
+}
+
+#theme-white {
+    background-color: #eee;
+   
+}
+
+#theme-blue {
+    background-color: #1e41c1;
+}
+
+#theme-orange {
+    background-color: #b6461e;
+}
+
+#theme-purple {
+    background-color: #7852ae;
+}
+
+#theme-green {
+    background-color: #5faf3b;
+}
+
+#theme-black {
+    background-color: black;
+}
+
+
+.App.theme-white {
+    background-color: #eee;
+}
+
+
+.App.theme-blue {
+    background-color: #bec7e7;
+}
+
+.App.theme-orange {
+    background-color: #f4c9b7;
+}
+
+.App.theme-purple {
+    background-color: #d0b7f4;
+}
+
+.App.theme-green {
+    background-color: #c3e3c1;
+}
+
+.App.theme-black {
+    background-color: #333;
+    color: #eee;
+}
+
+
+
